@@ -37,24 +37,32 @@
           </select>
         </label>
         <label for="radio-selection-1">
-          <input type="radio" id="radio-selection-1" name="radio-selection" checked/> Some preference
+          <input type="radio" id="radio-selection-1" name="radio-selection" value="some" class="inline" checked/> Some preference
         </label>  
         <label for="radio-selection-2">
-          <input type="radio" id="radio-selection-2" name="radio-selection"/> Another preference
+          <input type="radio" id="radio-selection-2" name="radio-selection" value="another" class="inline" /> Another preference
         </label>  
       </fieldset>
       <fieldset>
         <legend>Fields in the survery form - second set</legend>        
         <label for="checkbox1">
-          <input type="checkbox" id="checkbox1" value="1" /> Select value 1 if you want
+          <input type="checkbox" id="checkbox1" value="1" class="inline" /> Select value 1 if you want
         </label>
         <label for="checkbox2">
-          <input type="checkbox" id="checkbox2" value="2" /> Select value 2 if you want
+          <input type="checkbox" id="checkbox2" value="2" class="inline" /> Select value 2 if you want
         </label>
         <label for="checkbox3">
-          <input type="checkbox" id="checkbox3" value="3" /> Select value 3 if you want
+          <input type="checkbox" id="checkbox3" value="3" class="inline" /> Select value 3 if you want
         </label>
       </fieldset>
+      <fieldset>
+        <legend>Fields in the survery form - third set</legend>
+        <label for="your-comments">
+          <textarea rows="5" cols="25" id="your-comments" placeholder="Enter here your comments ...">
+          </textarea>
+        </label>
+      </fieldset>
+      <input type="submit" id="submit" value="Submit" />
     </form>
   </body>
 </html>
